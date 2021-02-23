@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Login"
+    >
+
+    <EditText
+        android:id="@+id/password_Text"
+        android:layout_width="272dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/sifre"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/dont_password_text"
+        app:layout_constraintEnd_toEndOf="@+id/dont_password_text"
+        app:layout_constraintStart_toStartOf="@+id/dont_password_text"
+        tools:ignore="UnknownId"
+        tools:layout_conversion_absoluteHeight="62dp"
+        tools:layout_conversion_absoluteWidth="348dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Numbertext"
+        android:layout_width="272dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/e_posta"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/password_Text"
+        app:layout_constraintEnd_toEndOf="@+id/password_Text"
+        app:layout_constraintStart_toStartOf="@+id/password_Text"
+        tools:ignore="UnknownId"
+        tools:layout_conversion_absoluteHeight="62dp"
+        tools:layout_conversion_absoluteWidth="350dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="93dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="140dp"
+        android:onClick="loginButton"
+        android:text="@string/giris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="54dp"
+        tools:layout_conversion_absoluteWidth="113dp" />
+
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="362dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/Numbertext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="NotSibling"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/dont_password_text"
+        android:layout_width="232dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/ifremi_unuttum"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="@+id/login_button"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="@+id/login_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

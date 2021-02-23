@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Nest_Over_Final</string>
+    <string name="sifre" translatable="false">Sifre</string>
+    <string name="e_posta" translatable="false">E-posta</string>
+    <string name="giris" translatable="false">Giriş</string>
+    <string name="ifremi_unuttum" translatable="false">Şifremi Unuttum</string>
+
+    <string name="b_l_m" translatable="false">Bölüm</string>
+    <string name="s_n_f" translatable="false">Sınıf</string>
+    <string name="kullan_c_ad" translatable="false">Kullanıcı Adı</string>
+    <string name="fak_lte" translatable="false">Fakülte</string>
+    <string name="onayla" translatable="false">Onayla</string>
+    <string name="gazi_niversitesi" translatable="false">Gazi Üniversitesi</string>
+    <string name="todo">todo</string>
+    <string name="ge_irilen_s_re">Geçirilen Süre</string>
+    <string name="duyurular">Duyurular</string>
+
+</resources>
